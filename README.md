@@ -25,9 +25,9 @@ data-processing-pipeline/
 │   └── Datasets.ipynb  
 │   
 ├── data/  
-│   ├── dataset_1.csv  
-│   ├── dataset_2.csv  
-│   └── dataset_3.csv  
+│   ├── orders.csv  
+│   ├── api_logs.csv  
+│   └── financial_transactions.csv  
 │  
 ├── requirements.txt  
 └── README.md  
