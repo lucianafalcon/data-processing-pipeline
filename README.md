@@ -29,7 +29,6 @@ data-processing-pipeline/
 │   ├── api_logs.csv  
 │   └── financial_transactions.csv  
 │  
-├── requirements.txt  
 └── README.md  
   
 ---
@@ -38,13 +37,16 @@ data-processing-pipeline/
 
 Three datasets were analyzed, obtained from public sources such as **Kaggle, GitHub, and Google Dataset Search**.
 
+1. `orders.csv` – Transacciones de E-commerce
+2. `api_logs.csv` – Web / API logs
+3. `financial_transactions.csv` – Transacciones financieras / fraude
+
+
 For each dataset, the following steps were performed:
 - Data loading using Pandas.
 - Structural analysis (`info`, `describe`).
 - Data quality checks and missing value detection.
 - Identification of relevant variables based on the dataset context.
-
-One dataset was selected for deeper exploration and visualization.
 
 ---
 
