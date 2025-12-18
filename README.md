@@ -19,7 +19,7 @@ The project is designed to demonstrate practical skills relevant to **Data Engin
 
 ##  Project Structure
 
-python-data-exploration-project/  
+data-processing-pipeline/  
 │  
 ├── notebooks/  
 │   └── Datasets.ipynb  
