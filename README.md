@@ -22,7 +22,7 @@ The project is designed to demonstrate practical skills relevant to **Data Engin
 python-data-exploration-project/  
 │  
 ├── notebooks/  
-│   └── Datasets_Falcon.ipynb  
+│   └── Datasets.ipynb  
 │   
 ├── data/  
 │   ├── dataset_1.csv  
