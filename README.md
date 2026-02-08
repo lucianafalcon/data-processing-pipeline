@@ -1,80 +1,45 @@
-# Data Processing and Exploration Pipeline
+# Project 1 – EMG Data Analysis
 
-This project aims to explore, evaluate, and process potential datasets for real-world use cases using Python.  
-It includes an initial assessment of data quality, exploratory analysis, and visualization, with a focus on **data processing, structure, and reliability**.
+The objective of this project is to analyze EMG data acquired by an embedded monitoring system in order to detect muscle activation patterns and anomalous events using statistical analysis and machine learning techniques.
 
-The project is designed to demonstrate practical skills relevant to **Data Engineer Junior / Backend Data** roles.
+ --- 
+ 
+ # Project 2 – Supermarket Price Analysis & Visualization
 
----
+## Project Overview
+This project performs exploratory data analysis and visualization on supermarket price data.
+The dataset was analyzed in the context of a governmental initiative aimed at monitoring and controlling price variations across major supermarket chains.
 
-## Objectives
+## Analytical Objective
+Analyze price-related data from major supermarket chains to identify patterns, trends, and anomalous price behaviors.
 
-- Identify datasets with analytical potential and business value.
-- Evaluate data structure, quality, and relevant variables.
-- Perform exploratory data analysis using Pandas.
-- Apply data transformations to prepare clean and structured datasets.
-- Document the data processing workflow in a clear and reproducible way.
+## Commercial Context
+The government requested the use of major supermarket chains as reference points to conduct a price control analysis.
+A subset of 15 product- and price-related variables was selected to support this study.
 
----
+## Dataset
+- Large-scale dataset with product and pricing information
+- Includes numerical and categorical variables
+- Data was filtered and cleaned for analytical purposes
 
-##  Project Structure
+## Exploratory Data Analysis
+The analysis includes:
+- Univariate analysis using histograms (data frequency)
+- Boxplots for outlier detection
+- Aggregations by supermarket
+- Price comparisons across chains
 
-data-processing-pipeline/  
-│  
-├── notebooks/  
-│   └── Datasets.ipynb  
-│   
-├── data/  
-│   ├── orders.csv  
-│   ├── api_logs.csv  
-│   └── financial_transactions.csv  
-│  
-└── README.md  
-  
----
+## Key Insights
+- Price distributions show skewness and high variability
+- Several outliers were detected in numerical variables
+- Supermarket-level aggregation highlights differences in pricing strategies
 
-## Datasets
-
-Three datasets were analyzed, obtained from public sources such as **Kaggle, GitHub, and Google Dataset Search**.
-
-1. `orders.csv` – Transacciones de E-commerce
-2. `api_logs.csv` – Web / API logs
-3. `financial_transactions.csv` – Transacciones financieras / fraude
-
-
-For each dataset, the following steps were performed:
-- Data loading using Pandas.
-- Structural analysis (`info`, `describe`).
-- Data quality checks and missing value detection.
-- Identification of relevant variables based on the dataset context.
+## Future Work
+- Outlier treatment using statistical methods
+- Feature engineering and normalization
+- Anomaly detection using machine learning techniques
 
 ---
 
-## Visualizations
-
-For the selected dataset, visualizations were created using:
-- **Matplotlib**
-- **Seaborn**
-
-The charts help identify distributions, patterns, and relationships between variables, supporting a better understanding of the data and its potential use in downstream processes.
-
----
-
-## Technologies Used
-
-- Python 3  
-- Pandas  
-- Matplotlib  
-- Seaborn  
-- Jupyter Notebook  
-- Git  
-
----
-
-## Results
-
-This project demonstrates:
-- Data processing and exploration using Pandas.
-- Structured and methodical handling of datasets.
-- Ability to prepare clean data for further analysis or pipeline integration.
-- Good documentation and project organization practices.
+## Tech Stack
+Python, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
