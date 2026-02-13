@@ -1,10 +1,4 @@
-# Project 1 – EMG Data Analysis
-
-The objective of this project is to analyze EMG data acquired by an embedded monitoring system in order to detect muscle activation patterns and anomalous events using statistical analysis and machine learning techniques.
-
- --- 
- 
- # Project 2 – Supermarket Price Analysis & Visualization
+#  Market Price Analysis & Visualization
 
 ## Project Overview
 This project performs exploratory data analysis and visualization on supermarket price data.
